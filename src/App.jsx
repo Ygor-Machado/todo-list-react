@@ -15,7 +15,7 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      text: "criar funcionalidade x no sistema",
+      text: "Rever a final do mundial 2012 corinthians x chelsea",
       category: "Trabalho",
       isCompleted: false,
     },
