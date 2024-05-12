@@ -100,3 +100,14 @@ input, select {
 .filter-options div {
   flex: 1 1 0;
 }
+
+@media screen and (max-width: 600px) {
+  .filter-options {
+    flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+    gap: 1rem; /* Adiciona um espaço entre os elementos na coluna */
+  }
+
+  .button-container {
+    display: flex;
+  }
+}

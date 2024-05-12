@@ -9,7 +9,7 @@ const Todo = ({ todo, removeTodo, completeTodo }) => {
                     ({todo.category})
                 </p>
             </div>
-            <div>
+            <div className="button-container">
                 <button className="complete" onClick={() => completeTodo(todo.id)}>Completar</button>
                 <button className="remove" onClick={() => removeTodo(todo.id)}>X</button>
             </div>
